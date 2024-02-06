@@ -27,7 +27,6 @@ body {
 }
 
 .logo {
-    line-height: 100px;
     float: left;
     cursor: pointer;
 }
@@ -94,16 +93,45 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
-    font-weight: bold;
-    font-family: lemonmilk-light;
+    font-family: lemonmilk;
     text-align: justify;
+}
+
+.img-txt-about {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: lemonmilk;
 }
 
 .box {
     width: 20%;
     height: 30%;
     position: absolute;
-    top: 40%;
-    left: 10%;
-    background-color: cornflowerblue;
+    top: 15%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 20px;
+}
+
+.box-box-2 {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 20px;
+}
+
+.box-box-3 {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 20px;
 }
